@@ -1,5 +1,5 @@
 {
-  "name": "imber",
+  "name": "@arrowgreen021/imber",
   "version": "1.0.0",
   "main": "src/index.js",
   "types": "src/types.d.ts",
@@ -17,7 +17,7 @@
     "vanilla-js"
   ],
   "author": "Gowthaman Ganesan",
-  "license": "ISC",
+  "license": "MIT",
   "description": "A lightweight rain animation plugin using Vanilla JS",
   "devDependencies": {
     "rollup": "^2.79.2",
