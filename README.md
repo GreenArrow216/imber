@@ -1,8 +1,8 @@
-# 🌧️ RainEffect - A Lightweight Rain Animation Plugin
+# 🌧️ Imber - A Lightweight Rain Animation Plugin
 
 ![RainEffect Demo](https://your-demo-link.com/demo.gif) *(Add a demo gif here!)*
 
-RainEffect is a lightweight, **performance-efficient** rain animation plugin built using **Vanilla JavaScript**. It works with **React, Vue, and pure HTML**.
+Imber is a lightweight, **performance-efficient** rain animation plugin built using **Vanilla JavaScript**. It works with **React, Vue, and pure HTML**.
 
 ## 🚀 Features
 - 🎨 **Customizable raindrop count, speed, and color**
@@ -16,12 +16,7 @@ RainEffect is a lightweight, **performance-efficient** rain animation plugin bui
 
 ### **Using NPM** (Recommended for projects)
 ```sh
-npm install rain-effect-plugin
-```
-
-### **Using a CDN** (For quick use)
-```html
-<script src="https://cdn.jsdelivr.net/npm/rain-effect-plugin/dist/rain-effect.min.js"></script>
+npm install @arrowgreen021/imber
 ```
 
 ---
@@ -51,7 +46,7 @@ npm install rain-effect-plugin
 ### **In React**
 ```tsx
 import { useEffect, useRef } from "react";
-import RainEffect from "rain-effect-plugin";
+import RainEffect from "@arrowgreen021/imber";
 
 const RainCanvas = () => {
     const canvasRef = useRef(null);
@@ -72,7 +67,7 @@ export default RainCanvas;
 
 <script>
 import { onMounted, ref } from "vue";
-import RainEffect from "rain-effect-plugin";
+import RainEffect from "@arrowgreen021/imber";
 
 export default {
   setup() {

@@ -6,7 +6,7 @@ export default {
         {
             file: "dist/rain-effect.min.js",
             format: "umd",
-            name: "RainEffect",
+            name: "Imber",
             plugins: [terser()]
         }
     ]
